@@ -1,54 +1,14 @@
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
+import java.util.Scanner;
 
 public class ClassTwo {
+
     public static void main(String[] args) {
 
-    /*
-    Loops
-    1. for loop
+        Scanner scan1 = new Scanner(System.in);
 
-    for( initialization , condition, update){
-        body
-        }
+        int input = scan1.nextInt();
 
-    for(int a = 1 ; a<=10; a++){
-        System.out.println(a);
-    }
-
-    2. While loop
-
-    initialization
-    while(condition){
-    body
-    update
-    }
-
-    int a = 1;
-        while(a<=10){
-            System.out.println(a);
-            a++;
-        }
-
-
-    3. Do-while
-
-    initialization
-    do{
-        body
-        update
-        }while(condition);
-
-     */
-
-
-        boolean switchedOff = true;
-        do{
-            System.out.println("Turning on the PC");
-            switchedOff = true;
-        }while(switchedOff);
-
-
-
-
+        System.out.println(input);
     }
 }
