@@ -2,32 +2,19 @@ public class Main {
     public static void main(String[] args) {
 
         /*
-        Operators
+        Variables,
+        Data Types,
+        Operator
 
-        Arithmetical
-        + , -, *, /, %
+        Conditional Statements (If-else, Switch case)
+        Loops (For, while, do-while)
+        Functions
+        Scope
+        Solve few problems
 
-        incre/decremental
-        ++, --
 
-        Logical
-        & , | , !
-
-        Comparison
-        <, <= , >, >=, ==, !=
 
          */
-
-
-        boolean value1 = (1 != 10) ;
-
-
-        boolean result = value1;
-
-
-        System.out.println(result);
-
     }
 }
 
-//
