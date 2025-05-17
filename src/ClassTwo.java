@@ -8,46 +8,18 @@ public class ClassTwo {
     1. If-else,
     2. Switch case
      */
+        int value = 3;
 
-        int a = 6;
-
-        /// -n , 0, 1, 2, 3, 4, 5 (Less than equal Five) -> a <= 5
-
-        ///  5, 6, 7, 8, +n (Greater than equal Five) -> a>= 5
-
-        /// Used operators are :     ( ==, != , <=, >= , < , >)
-
-        if (a != 5){
-            System.out.println("A is not equal to Five");
-        }else if(a== 5){
-            System.out.println("A is Five");
-        }else{
-            System.out.println("Not five");
-        }
-
-        /*
-        1. make a odd-even checker
-
-        2. make a prime number checker
-
-        3. find leap year
-
-         */
-
-        int currentYear = 1600;
-
-        if (currentYear % 4 == 0){
-            if(currentYear % 100 == 0){
-                if(currentYear % 400 == 0){
-                    System.out.println("Leap Year");
-                }else{
-                    System.out.println("Not Leap Year");
-                }
-            }else{
-                System.out.println("Leap Year");
-            }
-        }else {
-            System.out.println("Not Leap Year");
+        switch (value){
+            case 1: //value == 1
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+                break;
+            default:
+                System.out.println("Not 1 or 2");
+                break;
         }
 
 
