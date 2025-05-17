@@ -4,23 +4,50 @@ public class ClassTwo {
     public static void main(String[] args) {
 
     /*
-    Conditional Statements
-    1. If-else,
-    2. Switch case
-     */
-        int value = 3;
+    Loops
+    1. for loop
 
-        switch (value){
-            case 1: //value == 1
-                System.out.println("One");
-                break;
-            case 2:
-                System.out.println("Two");
-                break;
-            default:
-                System.out.println("Not 1 or 2");
-                break;
+    for( initialization , condition, update){
+        body
         }
+
+    for(int a = 1 ; a<=10; a++){
+        System.out.println(a);
+    }
+
+    2. While loop
+
+    initialization
+    while(condition){
+    body
+    update
+    }
+
+    int a = 1;
+        while(a<=10){
+            System.out.println(a);
+            a++;
+        }
+
+
+    3. Do-while
+
+    initialization
+    do{
+        body
+        update
+        }while(condition);
+
+     */
+
+
+        boolean switchedOff = true;
+        do{
+            System.out.println("Turning on the PC");
+            switchedOff = true;
+        }while(switchedOff);
+
+
 
 
     }
